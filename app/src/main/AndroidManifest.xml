@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ayman.isurvive">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Sp"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".KitsList"
+            android:label="Kits"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CheckList"
+            android:label="@string/title_activity_check_list"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Videos" />
+        <activity android:name=".Play" />
+        <activity
+            android:name=".One"
+            android:label="Videos"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Two"
+            android:label="Video"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HomeScreen"
+            android:label="HomeScreen"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

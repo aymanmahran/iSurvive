@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_marginBottom="15dp"
+android:background="@drawable/rounded"
+android:orientation="vertical"
+android:id="@+id/mn"
+android:padding="0dp">
+
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:id="@+id/back_image">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="20dp"
+        android:text="Volcano"
+        android:id="@+id/nm"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="23dp"
+        android:layout_height="23dp"
+        android:layout_gravity="center|right"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="-5dp"
+        android:background="@drawable/baseline_delete_24"/>
+
+</FrameLayout>
+
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="85dp"
+    android:background="@android:drawable/dialog_holo_light_frame">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:id="@+id/des"
+        android:text="Place: beside bed\nWeight: 2kg\nColor: black" />
+
+    <Button
+        android:id="@+id/edit"
+        android:layout_width="23dp"
+        android:layout_height="23dp"
+        android:layout_gravity="center|right"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/baseline_edit_24"/>
+
+</FrameLayout>
+
+</LinearLayout>
